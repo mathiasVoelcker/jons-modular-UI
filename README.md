@@ -75,7 +75,10 @@
 ### Using Grids
 ```
 <div class="Grid">
-  <div class="Grid-cell u-size1of2 u-before1of4 u-after1of4">
+  <div class="Grid-cell u-size6of12">
+    Meu conteudo ou divs
+  </div>
+  <div class="Grid-cell u-size6of12">
     Meu conteudo ou divs
   </div>
 </div>
