@@ -71,3 +71,34 @@
     }
   }
 ```
+
+### Using Grids
+```
+<div class="Grid">
+  <div class="Grid-cell u-size1of2 u-before1of4 u-after1of4">
+    Meu conteudo ou divs
+  </div>
+</div>
+```
+
+##### Available classes
+
+`Grid`: core component
+
+`Grid--alignCenter`: center-align all child Grid-cell
+
+`Grid--alignRight`: right-align all child Grid-cell
+
+`Grid--alignMiddle`: middle-align all child Grid-cell
+
+`Grid--alignBottom`: bottom-align all child Grid-cell
+
+`Grid--fit`: evenly distribute space amongst all child Grid-cell
+
+`Grid--equalHeight`: all child Grid-cell match height of the tallest
+
+`Grid--withGutter`: adds a gutter between cells
+
+`Grid-cell`: a child cell of Grid that wraps grid content
+
+`Grid-cell--center`: center an individual Grid-cell
